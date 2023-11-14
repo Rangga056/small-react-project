@@ -1,0 +1,90 @@
+body{
+  background-color: #232323;
+  color: white;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.post{
+  margin-block: 1em;
+}
+
+.post-wrapper{
+  padding: 1.3em;
+  max-width: 60%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  gap: .5em;
+  border: solid 1px rgba(87, 87, 87, 0.453);
+  border-radius: 40px;
+}
+
+.post-wrapper >* >* {
+  margin: 0;
+}
+
+.post-title{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding-bottom: .2em;
+  font-weight: 500;
+  border-bottom: solid 1px rgba(87, 87, 87, 0.453);
+}
+
+.post-description{
+  max-height: 200px;
+  overflow-y:auto;
+  scrollbar-width: 0;
+  background-color: rgb(77, 77, 77);
+  padding: 1em;
+  border-radius:.3em;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.post-footer{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top:-.3em;
+}
+
+.likes{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: .5em;
+}
+
+.username{
+  opacity: .9;
+}
+
+.post-button{
+  border: none;
+  border-radius: 50%;
+  padding: .5em;
+  transition: 300ms;
+  font-size: 1rem;
+}
+
+.post-button:hover, .post-button:focus{
+  cursor: pointer;
+  background-color: rgb(110, 190, 255);
+}
+
+.post-button:active{
+  scale: .9;
+  background-color: white;
+}
+
+.likes p{
+  letter-spacing: .04em;
+  opacity: .9;
+}
