@@ -2,7 +2,7 @@
 
 This is a blog / social media like website where user can send posts and leave a response
 
-you can access this website from this [link] (https://react-course-1-ad19e.web.app/)
+you can access this website from this [link](https://react-course-1-ad19e.web.app/)
 
 # Getting Started with Create React App
 
